@@ -1,0 +1,27 @@
+{
+  "name": "marvel-names",
+  "version": "1.0.0",
+  "description": "Get random Marvel names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spences10/marvel-names.git"
+  },
+  "keywords": [
+    "random",
+    "marvel",
+    "names"
+  ],
+  "author": "Scott Spence <spences10apps@gmail.com> (https://spences10.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spences10/marvel-names/issues"
+  },
+  "homepage": "https://github.com/spences10/marvel-names#readme",
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  }
+}
