@@ -4,7 +4,7 @@
   "description": "Get random Marvel names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.js -w"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
