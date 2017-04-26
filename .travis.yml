@@ -9,7 +9,7 @@ node_js:
   - '6'
   - '4'
 before_script:
-  - yarn prune
+  - yarn install --force
 script:
   - yarn test:single
 after_success:
