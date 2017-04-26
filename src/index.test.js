@@ -22,6 +22,14 @@ describe('marvel-names', function() {
     it('should return a random item from the marvel.all', function() {
       var randomItem = marvel.random()
       expect(marvel.all).to.include(randomItem)
+
+      it('should return an array of random items if passed a number', function () {
+        var randomItems = marvel.random(3)
+        expect(randomItems).to.have.length(3)
+        randomItems.forEach(function(item) {
+          expect(marvel.all).to.include(item)
+        });
+      })
     })
   })
 })
