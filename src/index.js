@@ -1,5 +1,6 @@
-var uniqueRandomArray = require('unique-random-array')
-var marvelNames = require('./marvel-names')
+import uniqueRandomArray from 'unique-random-array'
+import marvelNames from './marvel-names'
+
 var getRandomItem = uniqueRandomArray(marvelNames)
 
 module.exports = {
