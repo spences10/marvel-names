@@ -1,5 +1,5 @@
 {
-  "name": "marvel-names",
+  "name": "@spences10/marvel-names",
   "version": "1.0.0",
   "description": "Get random Marvel names",
   "main": "src/index.js",
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/spences10/marvel-names#readme",
   "dependencies": {
-    "unique-random-array": "^1.0.0"
+    "unique-random-array": "1.0.0"
   }
 }
