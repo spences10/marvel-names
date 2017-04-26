@@ -11,7 +11,7 @@ node_js:
 before_script:
   - yarn prune
 script:
-  - yarn test
+  - yarn test:single
 after_success:
   - yarn semantic-release
 branches:
