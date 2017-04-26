@@ -8,8 +8,8 @@
     "test": "mocha src/index.test.js -w",
     "test:single": "mocha src/index.test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "precommit": "yarn test",
-    "prepush": "yarn test" 
+    "precommit": "yarn test:single",
+    "prepush": "yarn test:single" 
   },
   "repository": {
     "type": "git",
