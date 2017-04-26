@@ -9,7 +9,7 @@
     "test:single": "mocha src/index.test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "precommit": "yarn test:single",
-    "prepush": "yarn test:single" 
+    "prepush": "yarn test:single"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "chai": "^3.5.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.13.3",
     "mocha": "^3.3.0",
     "semantic-release": "^6.3.2",
     "semantic-release-cli": "^3.0.3"
