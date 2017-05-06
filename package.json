@@ -39,7 +39,7 @@
     "husky": "^0.13.3",
     "jest": "^19.0.2",
     "rimraf": "^2.6.1",
-    "semantic-release": "^6.3.2",
+    "semantic-release": "^6.3.6",
     "semantic-release-cli": "^3.0.3"
   },
   "czConfig": {
