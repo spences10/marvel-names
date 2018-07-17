@@ -31,16 +31,16 @@
     "unique-random-array": "1.0.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0",
-    "husky": "^0.14.0",
-    "jest": "^22.0.1",
-    "rimraf": "^2.6.1",
-    "semantic-release": "^15.0.1",
-    "semantic-release-cli": "^4.0.0"
+    "babel-cli": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "husky": "0.14.3",
+    "jest": "22.4.4",
+    "rimraf": "2.6.1",
+    "semantic-release": "15.8.0",
+    "semantic-release-cli": "4.0.6"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
